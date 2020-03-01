@@ -10,8 +10,8 @@ name: OpenWrt-Netgear3800-Actions
 
 on:
 # 定时触发
-  schedule:
-    - cron: 0 20 * * *
+#  schedule:
+#    - cron: 0 20 * * *
 
 # release触发
   release:
