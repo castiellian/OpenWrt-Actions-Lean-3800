@@ -70,7 +70,6 @@ CONFIG_PACKAGE_chat=y
 CONFIG_PACKAGE_comgt=y
 CONFIG_PACKAGE_comgt-directip=y
 CONFIG_PACKAGE_comgt-ncm=y
-CONFIG_PACKAGE_kmod-atm=y
 CONFIG_PACKAGE_kmod-gre=y
 CONFIG_PACKAGE_kmod-iptunnel=y
 CONFIG_PACKAGE_kmod-l2tp=y
@@ -101,7 +100,6 @@ CONFIG_PACKAGE_kmod-usb-uhci=y
 CONFIG_PACKAGE_kmod-usb-wdm=y
 CONFIG_PACKAGE_kmod-usb2=y
 CONFIG_PACKAGE_libusb-1.0=y
-CONFIG_PACKAGE_linux-atm=y
 CONFIG_PACKAGE_ppp=y
 CONFIG_PACKAGE_ppp-mod-passwordfd=y
 CONFIG_PACKAGE_ppp-mod-pppoa=y
@@ -122,6 +120,12 @@ CONFIG_PACKAGE_luci-app-mwan3=y
 CONFIG_PACKAGE_luci-app-qos=y
 CONFIG_PACKAGE_luci-proto-3g=y
 CONFIG_PACKAGE_luci-proto-ppp=y
+CONFIG_PACKAGE_kmod-usb-net-ipheth=y
+CONFIG_PACKAGE_kmod-usb-serial=y
+CONFIG_PACKAGE_kmod-usb-serial-option=y
+CONFIG_PACKAGE_kmod-usb-serial-sierrawireless=y
+CONFIG_PACKAGE_kmod-usb-serial-wwan=y
+CONFIG_PACKAGE_kkmod-usb-serial-qualcomm=y
 EOF
 
 # 
