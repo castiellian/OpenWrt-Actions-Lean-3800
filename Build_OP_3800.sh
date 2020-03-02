@@ -125,7 +125,7 @@ CONFIG_PACKAGE_kmod-usb-serial=y
 CONFIG_PACKAGE_kmod-usb-serial-option=y
 CONFIG_PACKAGE_kmod-usb-serial-sierrawireless=y
 CONFIG_PACKAGE_kmod-usb-serial-wwan=y
-CONFIG_PACKAGE_kkmod-usb-serial-qualcomm=y
+CONFIG_PACKAGE_kmod-usb-serial-qualcomm=y
 EOF
 
 # 
