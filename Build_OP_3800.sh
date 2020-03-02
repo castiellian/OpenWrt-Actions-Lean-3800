@@ -158,11 +158,6 @@ CONFIG_PACKAGE_kmod-switch-rtl8306=y
 CONFIG_PACKAGE_kmod-switch-rtl8366-smi=y
 CONFIG_PACKAGE_kmod-switch-rtl8366rb=y
 CONFIG_PACKAGE_kmod-switch-rtl8366s=y
-CONFIG_PACKAGE_openvswitch=y
-CONFIG_PACKAGE_openvswitch-ovn-host=y
-CONFIG_PACKAGE_openvswitch-ovn-north=y
-CONFIG_PACKAGE_openvswitch-python=y
-CONFIG_PACKAGE_openvswitch-python3=y
 EOF
 
 # 
