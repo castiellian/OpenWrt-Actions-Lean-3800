@@ -178,6 +178,13 @@ CONFIG_PACKAGE_adguardhome=y
 CONFIG_PACKAGE_luci-app-adguardhome=y
 CONFIG_PACKAGE_smartdns=y
 CONFIG_PACKAGE_luci-app-smartdns=y
+CONFIG_PACKAGE_appfilter=y
+CONFIG_PACKAGE_frpc=y
+CONFIG_PACKAGE_kmod-oaf=y
+CONFIG_PACKAGE_luci-app-frpc=y
+CONFIG_PACKAGE_luci-i18n-oaf-zh-cn=y
+CONFIG_PACKAGE_luci-app-oaf=y
+
 EOF
 
 # 
