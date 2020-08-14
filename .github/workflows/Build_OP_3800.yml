@@ -36,7 +36,7 @@ on:
 #UPLOAD_FIRMWARE上传固件目录
 
 env:
-  REPO_URL: https://github.com/castiellian/lede.git
+  REPO_URL: https://github.com/coolsnowwolf/lede.git
   REPO_BRANCH: master
   DIY_SH: Build_OP_netgear3800.sh
   FREE_UP_DISK: false
@@ -90,6 +90,12 @@ jobs:
 
     - name: 安装源
       run: cd openwrt && ./scripts/feeds install -a
+
+    - name: 自定义安装源
+      working-directory: ./openwrt
+      run: |
+        git clone https://github.com/Lienol/openwrt-package package/lienol
+        git clone https://github.com/kenzok8/small package/small
 
     - name: 创建自定义配置文件 - OpenWrt-Netgear3800
       run: |
