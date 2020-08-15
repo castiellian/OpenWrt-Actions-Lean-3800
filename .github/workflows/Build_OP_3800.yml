@@ -13,6 +13,8 @@ on:
 #  schedule:
 #    - cron: 0 20 * * *
 
+   schedule:
+     - cron: 0 8 * * 5
 # release触发
   release:
     types: [published]
